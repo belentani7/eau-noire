@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Hero from './components/Hero';
 import BlockSection from './components/BlockSection';
+import ProjectsSection from './components/ProjectsSection';
 import PromptSection from './components/PromptSection';
 import Footer from './components/Footer';
 import { blocks } from './data/blocks';
@@ -45,6 +46,9 @@ function App() {
           />
         ))}
       </div>
+
+      {/* Projects Section */}
+      <ProjectsSection />
 
       {/* Prompt Section */}
       <PromptSection />
