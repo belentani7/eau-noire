@@ -1,5 +1,40 @@
+# Secrets & sensitive data
+vault/
+*.enc
+.env
+.env.generated
+.env.local
+.env.*.local
+
+# Logs (generated at runtime)
+logs/
+
+# Backups (generated at runtime)
+backups/
+
+# Output (generated files)
+output/*.pdf
+output/*.csv
+
+# Node
 node_modules/
-.next/
+npm-debug.log*
+
+# Music files (too large for GitHub)
+music/duck-studio/audio/*.wav
+music/duck-studio/audio/*.flac
+music/duck-studio/artwork/*.psd
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
 dist/
+.next/
 build/
 *.log
